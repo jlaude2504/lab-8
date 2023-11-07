@@ -6,3 +6,8 @@ function init(){
       document.getElementById('textoutput').innerHTML = textbox.value;
       alert("Jefferey Jay Laude: " + textbox.value);
     }
+  
+    button.addEventListener('click', showMeText);
+    }
+    
+  window.addEventListener('load', init);
