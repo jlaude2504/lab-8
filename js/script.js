@@ -9,5 +9,5 @@ function init(){
   
     button.addEventListener('click', showMeText);
     }
-    
+     
   window.addEventListener('load', init);
